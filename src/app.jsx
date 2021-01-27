@@ -7,16 +7,19 @@ const App = () => {
   const [employees, setEmployees] = useState([]);
   // useEffect(() => {}, []);
 
-  const getEmployeeByName = (employeeName) => {
+  const getEmployeeByName = (name, age, department) => {
     // make axios call to DB
     let employees = [];
-    if (employeeName) {
-      for (let i = 0; i < employee_data.length; i++) {
-        let currentEmployee = employee_data[i].name.toLowerCase().slice(0, employeeName.length);
-        employeeName = employeeName.toLowerCase();
-        if (currentEmployee === employeeName) {
-          employees.push(employee_data[i]);
-        }
+    for (let i = 0; i < employee_data.length; i++) {
+      name = name.toLowerCase();
+      let employeeName = employee_data[i].name.toLowerCase().slice(0, name.length);
+      if (age && age !== employee_data[i].age) {
+        continue;
+      } else if (department && department !== employee_data[i].department) {
+        continue;
+      }
+      if (employeeName === name) {
+        employees.push(employee_data[i]);
       }
     }
     setEmployees(employees);
@@ -32,7 +35,6 @@ const App = () => {
       <EmployeeList
         employees={employees}
       />
-
     </div>
   );
 };

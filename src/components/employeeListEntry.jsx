@@ -3,8 +3,11 @@ import React from 'react';
 const EmployeeListEntry = ({ employee }) => {
 
   return (
-
-    <div>{employee.name}</div>
+    <div>
+      <span>name: {employee.name}</span>
+      <span>age: {employee.age}</span>
+      <span>department: {employee.department}</span>
+    </div>
   );
 };
 
