@@ -15,38 +15,49 @@ const Search = ({ getEmployeeByName }) => {
   };
 
   return (
-    <div>
-      <form>
-        <select onChange={(e) => {
-          {e.target.value === 'All' ?
-          setDepartment(null) :
-          setDepartment(e.target.value)}
-        }}>
+
+    <form>
+      <div className='search-container'>
+        <select
+          className='age-filter'
+          onChange={(e) => {
+            {e.target.value === 'All' ?
+            setDepartment(null) :
+            setDepartment(e.target.value)}
+          }
+        }>
           {departments.map((dept, i) => {
             return <option key={i} value={dept}>{dept}</option>
           })}
         </select>
-        <select onChange={(e) => {
-          {e.target.value === 'All' ?
-          setAge(null) :
-          setAge(Number(e.target.value))}
+        <select
+          className='department-filter'
+          onChange={(e) => {
+            {e.target.value === 'All' ?
+            setAge(null) :
+            setAge(Number(e.target.value))
+          }
         }}>
           {ages.map((age, i) => {
             return <option key={i} value={age}>{age}</option>
           })}
         </select>
         <input
+          className='search-bar'
           type='text'
           value={name}
           onChange={(e) => setName(e.target.value)}
+          placeholder='Example: Serena Williams'
         />
+      </div>
+      <div className='button-container'>
         <button
+          className='search-button'
           onClick={(e) => handleClickButton(e)}
-        >
-          search
-        </button>
-      </form>
-    </div>
+        >search</button>
+      </div>
+    </form>
+
   );
 };
 

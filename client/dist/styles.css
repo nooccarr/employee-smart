@@ -51,3 +51,43 @@ ol, ul {
 	font: 100 42px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: white;
 }
+
+.search-container {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+
+.age-filter {
+	width: 100px;
+	border-radius: 10px 0 0 0;
+	border: 1px solid black;
+	border-right: none;
+}
+
+.department-filter {
+	width: 100px;
+	border: 1px solid black;
+	border-right: none;
+}
+
+.search-bar {
+	width: 250px;
+	border-radius: 0 10px 0 0;
+	border: 1px solid black;
+}
+
+.button-container {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+.search-button {
+	width: 456px;
+	background-color: black;
+	font: 100 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+	border: 1px solid black;
+	border-radius: 0 0 10px 10px;
+}
