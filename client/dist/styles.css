@@ -82,6 +82,7 @@ ol, ul {
 	display: flex;
 	justify-content: center;
 	height: 50px;
+	margin-bottom: 50px;
 }
 .search-button {
 	width: 456px;
@@ -90,4 +91,20 @@ ol, ul {
 	color: white;
 	border: 1px solid black;
 	border-radius: 0 0 10px 10px;
+}
+
+.employee-container {
+	display: flex;
+	justify-content: center;
+}
+
+.employee-detail {
+	width: 369px;
+	background-color: white;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;
+	font: 150 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding: 20px;
+	margin-bottom: 15px;
 }
