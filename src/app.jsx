@@ -5,7 +5,6 @@ import EmployeeList from './components/employeeList.jsx';
 
 const App = () => {
   const [employees, setEmployees] = useState([]);
-  // useEffect(() => {}, []);
 
   const getEmployeeByName = (name, age, department) => {
     return Axios

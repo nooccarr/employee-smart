@@ -5,7 +5,6 @@ const EmployeeList = ({ employees }) => {
   return (
     <div>
       {employees.map((employee, i) => {
-        // {console.log(employee)}
         return <EmployeeListEntry key={i} employee={employee} />
       })}
     </div>

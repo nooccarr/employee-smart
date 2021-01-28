@@ -19,6 +19,11 @@ VALUES
   ('Ki Hong Lee', 34, 'Film'),
   ('David Beckham', 45, 'Sports'),
   ('Camila Cabello', 23, 'Music'),
+  ('LeBron James', 36, 'Sports'),
+  ('Tiger Woods', 45, 'Sports'),
+  ('Bruno Mars', 25, 'Music'),
+  ('Robert De Niro', 77, 'Film'),
+  ('Ariana Grande-Butera', 27, 'Music'),
   ('Serena Williams', 39, 'Sports');
 
 -- psql < schema.sql

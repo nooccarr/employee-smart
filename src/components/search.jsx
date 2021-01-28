@@ -11,9 +11,7 @@ const Search = ({ getEmployeeByName }) => {
 
   const handleClickButton = (e) => {
     e.preventDefault();
-    if (name) {
-      getEmployeeByName(name, age, department);
-    }
+    getEmployeeByName(name, age, department);
   };
 
   return (
