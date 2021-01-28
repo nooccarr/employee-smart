@@ -9,6 +9,7 @@
     "clean": "rm client/dist/bundle.js",
     "populate-db": "psql < database/schema.sql",
     "build-dev": "webpack --mode development --watch",
+    "build-prod": "webpack --mode production",
     "start": "pm2 start server/index.js"
   },
   "dependencies": {
