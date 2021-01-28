@@ -26,16 +26,20 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>employee smart</h1>
-      {console.log(employees)}
-      <Search
-        getEmployeeByName={getEmployeeByName}
-      />
-      <EmployeeList
-        employees={employees}
-      />
-    </div>
+    <React.Fragment>
+      <div className='nav-bar'>
+        <img
+          className="nav-logo"
+          src="./logo.png"
+          width="50px"
+          height="50px"
+        />
+        <h1 className='nav-title'>employee smart</h1>
+      </div>
+      {/* {console.log(employees)} */}
+      <Search getEmployeeByName={getEmployeeByName} />
+      <EmployeeList employees={employees} />
+    </React.Fragment>
   );
 };
 

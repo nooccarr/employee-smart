@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ageGenerator from '../utils/ageGenerator.js';
+import ageGenerator from '../../utils/ageGenerator.js';
 
 const departments = ['All', 'Film', 'Music', 'Sports'];
 const ages = ageGenerator();

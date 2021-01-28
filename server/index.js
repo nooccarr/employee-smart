@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 app.use(bodyParser.json());
-app.use(express.static(path.join('./dist')));
+app.use(express.static(path.join('./client/dist')));
 app.use('/', router);
 
 app.listen(port, () => console.log(`Listening to port ${port}`));
