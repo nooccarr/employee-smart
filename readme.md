@@ -1,6 +1,6 @@
 # Employee Smart
 
-## Goals:
+## Goals
 - Create a React app that:
 	+ Displays the employee data below
 	+ Allows a user to search for an employee by name
