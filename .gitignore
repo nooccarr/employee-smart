@@ -3,4 +3,6 @@ dist/bundle.js
 package-lock.json
 .DS_Store
 
+config.js
+
 Prescreening Question.txt
