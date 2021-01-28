@@ -3,11 +3,11 @@ import EmployeeListEntry from './employeeListEntry.jsx';
 
 const EmployeeList = ({ employees }) => {
   return (
-    <div>
+    <React.Fragment>
       {employees.map((employee, i) => {
         return <EmployeeListEntry key={i} employee={employee} />
       })}
-    </div>
+    </React.Fragment>
   );
 };
 
