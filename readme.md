@@ -14,6 +14,7 @@
 * [React](https://reactjs.org)
 * [Node](https://nodejs.org/en)
 * [Express](https://expressjs.com)
+* [AWS EC2](https://aws.amazon.com/)
 
 ## Building and Running Environment
 
@@ -40,3 +41,13 @@ npm run build-dev
 ```sh
 npm start
 ```
+
+5. To stop node server:
+
+```sh
+npm run stop
+```
+
+## Running
+
+Go to http://35.173.122.236 in your browser

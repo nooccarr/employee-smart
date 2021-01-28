@@ -10,7 +10,8 @@
     "populate-db": "psql < database/schema.sql",
     "build-dev": "webpack --mode development --watch",
     "build-prod": "webpack --mode production",
-    "start": "pm2 start server/index.js"
+    "start": "pm2 start server/index.js",
+    "stop": "pm2 stop server/index.js"
   },
   "dependencies": {
     "axios": "^0.21.1",
