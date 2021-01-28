@@ -25,5 +25,3 @@ VALUES
   ('Robert De Niro', 77, 'Film'),
   ('Ariana Grande-Butera', 27, 'Music'),
   ('Serena Williams', 39, 'Sports');
-
--- psql < schema.sql
