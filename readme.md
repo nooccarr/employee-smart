@@ -50,4 +50,4 @@ npm run stop
 
 ## Running
 
-Go to http://35.173.122.236 in your browser
+Open [Employee Smart](http://35.173.122.236) in the browser.
