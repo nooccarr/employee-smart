@@ -23,14 +23,25 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+	background: url('background.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 body {
   line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
@@ -53,7 +64,7 @@ ol, ul {
 }
 
 .search-container {
-	margin-top: 300px;
+	margin-top: 31vh;
 	display: flex;
 	justify-content: center;
 	height: 50px;
@@ -99,6 +110,10 @@ ol, ul {
 .employee-container {
 	display: flex;
 	justify-content: center;
+}
+
+.employee-container:last-child {
+	margin-bottom: 100px;
 }
 
 .employee-detail {
