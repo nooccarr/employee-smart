@@ -50,4 +50,4 @@ npm run stop
 
 ## Running
 
-Open [Employee Smart](http://35.173.122.236) in the browser.
+Open [Employee Smart](http://ec2-54-83-169-238.compute-1.amazonaws.com) in the browser.
