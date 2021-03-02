@@ -50,4 +50,4 @@ npm run stop
 
 ## Running
 
-Open [Employee Smart](http://ec2-54-83-169-238.compute-1.amazonaws.com) in the browser.
+The EC2 instance is currently stopped but if you'd like to take a peek, please message me personally!
